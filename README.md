@@ -7,4 +7,6 @@ Una vez leído los datos, el dataframe se escribe en formato Delta Lake y se gua
 
 Posteriormente, se enlaza la tabla de Databricks con Power BI desktop mediante dos métodos: ODBC y DirectQuery, para realizar análisis del comportamiento de las ventas.
 
-![Diagrama del flujo](https://github.com/DianaGarcesPortilla/ETL-Storage_Databricks_PowerBI/blob/main/image08.png)
+[![Databricks Notebook](https://raw.githubusercontent.com/DianaGarcesPortilla/ETL-Storage_Databricks_PowerBI/main/image08.png)](https://github.com/DianaGarcesPortilla/ETL-Storage_Databricks_PowerBI/blob/main/ventas_integracionBI.ipynb)
+
+
