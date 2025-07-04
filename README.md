@@ -6,3 +6,5 @@ Se conecta Databricks con la cuenta de almacenamiento de Azure. Se hace uso del 
 Una vez leído los datos, el dataframe se escribe en formato Delta Lake y se guarda en el catálogo de Databricks, con el objeto de realizar la corrección del nombre de producto y id de producto en factura específica de la tabla, y llevar el control de versiones o cambios en esta. 
 
 Posteriormente, se enlaza la tabla de Databricks con Power BI desktop mediante dos métodos: ODBC y DirectQuery, para realizar análisis del comportamiento de las ventas.
+
+![Diagrama del flujo](https://github.com/DianaGarcesPortilla/ETL-Storage_Databricks_PowerBI/blob/main/image08.png)
